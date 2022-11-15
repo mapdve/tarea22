@@ -1,0 +1,424 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,700&family=Roboto&display=swap");
+
+/*Configuración de toda la pagina*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
+}
+/*configuraciones generales*/
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+body,
+html {
+  overflow-x: hidden;
+}
+section {
+  width: 80%;
+  margin: 80px auto;
+}
+li {
+  background-color: #af1af8;
+  background-size: 40px;
+  border: 3px solid #fff;
+  border-radius: 1em;
+  padding: 5px;
+}
+
+/*Fin configuracion de la pagina*/
+
+/*Header*/
+.logo {
+  color: whitesmoke;
+  background-color: #af1af8;
+  border: 3px solid #ffffff;
+  border-radius: 1em;
+  height: min-content;
+  margin-left: 30px;
+}
+header {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../imagenes/background.jpg);
+  background-position: bottom;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header-content {
+  margin-bottom: 150px;
+  color: white;
+  text-align: center;
+}
+.header-content h2 {
+  font-size: 4vmin;
+  color: #ffffff;
+  background-color: rebeccapurple;
+  border: 5px solid #630c9f;
+  border-radius: 1em;
+  border-top-right-radius: 10% 30%;
+  margin: 0;
+  padding: 10px;
+}
+.line {
+  width: 150px;
+  height: 4px;
+  background: darkmagenta;
+  margin: 10px auto;
+  border-radius: 5px;
+}
+.header-content h1 {
+  font-size: 7vmin;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  padding: 5px;
+  color: #ffffff;
+  background-color: rebeccapurple;
+  border: 8px solid #630c9f;
+  border-radius: 1em;
+  border-top-right-radius: 10% 30%;
+}
+.ctn {
+  padding: 10px 5px;
+  background: #af1af8;
+  border-left: 5px;
+  border: 5px solid rgb(255, 255, 255);
+  border-radius: 1em;
+  border-top-right-radius: 10% 30%;
+  color: rgb(255, 255, 255);
+  margin: 8px;
+}
+/*Final header*/
+/*inicio de navbar*/
+.navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 20px;
+  color: whitesmoke;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+}
+
+.nav-links li {
+  margin: 0 25px;
+}
+.menu-btn {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  width: 40px;
+  cursor: pointer;
+}
+/*Final de navbar*/
+/*Segunda parte de la pagina*/
+.tittle {
+  text-align: center;
+  font-size: 4vmin;
+  color: #f17602;
+}
+.row {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.row .col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.events .row {
+  margin-top: 50px;
+}
+h4 {
+  font-size: 3vmin;
+  color: #484872;
+  margin: 20px auto;
+}
+p {
+  color: black;
+  padding: 0px 20px;
+}
+h1 {
+  padding: 0 10px;
+}
+.ctn2 {
+  padding: 10px 5px;
+  background: #af1af8;
+  border-left: 5px;
+  border: 5px solid rgb(0, 0, 0);
+  border-radius: 1em;
+  border-top-right-radius: 10% 30%;
+  color: rgb(255, 255, 255);
+  margin: 8px;
+}
+.events .ctn2 {
+  margin-top: 20px;
+}
+.img {
+  display: flex;
+  height: 450px;
+  width: 500px;
+  text-align: center;
+  align-items: center;
+}
+/*fina segunda parte*/
+/*inicio tercera parte*/
+.explore {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-image: url(../imagenes/knd2.jpg);
+  background-position: absolute;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.explore-content {
+  width: 60px;
+  padding: 50px;
+  color: whitesmoke;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 10px;
+}
+.explore-content h1 {
+  font-size: 7vmin;
+  margin-left: 400px;
+  color: white;
+  margin-top: 10px;
+  margin-bottom: 25px;
+  background: #af1af8;
+  background-size: 5px;
+  border: 3px solid #fff;
+  border-radius: 25px;
+  align-self: center;
+}
+.explore-content .line {
+  margin-bottom: 15px;
+  margin-left: 170px;
+  background-color: #f17602;
+}
+.explore-content p {
+  color: black;
+  background-color: #fff;
+  background-size: 7px;
+  align-self: flex-start;
+  border: 5px solid #630c9f;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+.ctn3 {
+  padding: 10px 5px;
+  background: #af1af8;
+  border-left: 5px;
+  border: 5px solid rgb(255, 255, 255);
+  border-radius: 1em;
+  border-top-right-radius: 10% 30%;
+  color: rgb(255, 255, 255);
+  margin: 8px;
+}
+/*Fin tercera parte*/
+
+/*inicio cuarta parte*/
+.tours {
+  margin-left: 250px;
+}
+.content-col {
+  width: 40%;
+}
+.tours .row .col {
+  width: 50%;
+}
+.content-col h1 {
+  font-size: 7vmin;
+  color: #f17602;
+}
+div > div > img {
+  width: 250px;
+  height: 250px;
+  padding: 10px;
+}
+.content-col line {
+  border-left: 50px;
+}
+.content-col p {
+  padding: 0;
+  margin: 30px auto;
+}
+.ctn4 {
+  padding: 10px 5px;
+  background: #af1af8;
+  border-left: 5px;
+  border: 5px solid black;
+  border-radius: 1em;
+  border-top-right-radius: 10% 30%;
+  color: rgb(255, 255, 255);
+  margin: 8px;
+}
+/*Fin de la cuarta parte*/
+
+/*inicio del footer*/
+.footer {
+  width: 100%;
+  height: 50px;
+  padding: 20px 20px;
+  margin: 0;
+  background: #484872;
+  text-align: center;
+}
+.footer p {
+  color: whitesmoke;
+}
+/*Final footer*/
+
+/*Pagina personajes*/
+
+.personajes {
+  margin-left: 250px;
+}
+.contenedor1 {
+  width: 40%;
+}
+.personajes .personajes-contenedor .content {
+  width: 50%;
+}
+.contenedor1 h1 {
+  font-size: 7vmin;
+  color: #f17602;
+}
+div > div > img {
+  width: 250px;
+  height: 250px;
+  padding: 10px;
+}
+.contentedor1 line {
+  border-left: 50px;
+}
+.contenedor1 p {
+  padding: 0;
+  margin: 30px auto;
+}
+.ctn5 {
+  padding: 10px 5px;
+  background: #af1af8;
+  border-left: 5px;
+  border: 5px solid black;
+  border-radius: 1em;
+  border-top-right-radius: 10% 30%;
+  color: rgb(255, 255, 255);
+  margin: 8px;
+}
+.personajes-contenedor {
+  display: flex;
+}
+.personajes-contenedor .img-personajes img {
+  margin-right: 0px;
+  margin-left: 20px;
+  width: 125px;
+  height: 125px;
+  padding: 10px;
+}
+.ctn-personajes {
+  padding: 10px 5px;
+  background: #af1af8;
+  border-left: 5px;
+  border: 5px solid black;
+  border-radius: 1em;
+  border-top-right-radius: 10% 30%;
+  color: rgb(255, 255, 255);
+  margin: 8px;
+}
+.logo-personajes {
+  color: whitesmoke;
+  background-color: #af1af8;
+  border: 3px solid black;
+  border-radius: 1em;
+  height: min-content;
+  margin-left: 30px;
+}
+
+iframe {
+  margin-top: 50px;
+  border: 8px solid #af1af8;
+  margin-left: 25px;
+}
+/*final contenido personajes*/
+
+/* Formulario de Contacto*/
+.formulario {
+  background-color: gray;
+  width: min(60rem, 65%);
+  padding: 1rem;
+  border-radius: 0.5rem;
+  align-self: center;
+  margin-left: 0;
+  margin-top: 20px;
+}
+.formulario fieldset {
+  border: none;
+}
+.formulario legend {
+  text-align: center;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  color: rgb(255, 255, 255);
+  padding: 10px;
+  background-color: #af1af8;
+  border: 2px solid white;
+  border-radius: 20px;
+}
+  .campo:nth-child(3),
+  .campo:nth-child(4) {
+    grid-column: 1 / 3;
+  }
+.campo {
+  margin-bottom: 1rem;
+}
+.campo label {
+  color: rgb(255, 255, 255);
+  border: 2px solid white;
+  border-radius: 20px;
+  padding: 5px;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  display: block;
+  text-align: center;
+}
+.campo textarea {
+  height: 10rem;
+}
+.input-text {
+  width: 100%;
+  border: none;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+.botones input{
+    padding: 10px 5px;
+    background: #af1af8;
+    border-left: 5px;
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 1em;
+    border-top-right-radius: 10% 30%;
+    color: rgb(255, 255, 255);
+    margin: 8px;
+    cursor: pointer;
+}
+/*Final formulario de contacto*/
